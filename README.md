@@ -1,4 +1,4 @@
-### Diagrama UML (Mermaid)
+### Diagrama de Classe UML (Mermaid)
 ```mermaid
 classDiagram
     class ReprodutorMusical {
@@ -16,6 +16,7 @@ classDiagram
     class NavegadorInternet {
         + exibirPagina(url: String): void
         + adicionarNovaAba(): void
+        + atualizarPagina(): void
     }
 
     class iPhone {
